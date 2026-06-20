@@ -1,0 +1,4 @@
+# Install these into the SAME virtual environment that runs Experiment 1
+# (the one with llama-cpp-python and your GGUF model).
+fastapi>=0.110
+uvicorn[standard]>=0.29

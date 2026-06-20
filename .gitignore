@@ -1,0 +1,11 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local order log (regenerated at runtime)
+data/intake_log.csv
+
+# n8n local data if anyone runs it in-tree
+.n8n/
