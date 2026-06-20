@@ -156,16 +156,3 @@ To make a real inbox the entry point, replace the **Order Webhook** node with an
 the email body. Everything downstream stays the same. The webhook is used here
 because it is the simplest thing to test and screenshot.
 
-## For the repo / interview
-
-Export your finished workflow (menu, Download) to refresh
-`workflow/print-order-intake.json`, and add a screenshot of the canvas after a
-successful run to `docs/`. A canvas with every node showing a green tick is the
-single most convincing artifact here.
-
-## CV line
-
-Designed and implemented an n8n workflow automating print order intake: a webhook
-receives a customer brief, an AI model extracts structured order fields, the order
-is captured to a Google Sheet, and a confirmation email is returned to the
-customer, with the extraction served from a local model via a FastAPI endpoint.
